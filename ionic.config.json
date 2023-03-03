@@ -1,0 +1,8 @@
+{
+  "name": "geo-champ",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

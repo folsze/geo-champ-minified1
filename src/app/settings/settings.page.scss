@@ -1,0 +1,43 @@
+.centered-toolbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.settings-page-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.mode-select-row {
+  display: flex;
+  align-items: center;
+
+  &__select {
+    &-left {
+      font-weight: bold;
+      color: red;
+      margin-right: 12px;
+    }
+    &-right {
+      font-weight: bold;
+      color: red;
+    }
+  }
+}
+
+.reset-radio-group {
+  width: 100%;
+}
+
+.mode-icon {
+  margin-right: 12px;
+}
